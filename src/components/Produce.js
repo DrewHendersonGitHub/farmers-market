@@ -4,10 +4,13 @@ import PropTypes from "prop-types";
 function Produce(props){
   return (
     <React.Fragment>
-      <h3>Month: {props.month}</h3>
-      <ul>
-        <li>Produce: {props.selection}</li>
-      </ul>
+      <hr/>
+      <div>
+        <h3>{props.month}</h3>
+        <ul>
+          <li>{props.selection}</li>
+        </ul>
+      </div>
     </React.Fragment>
   );
 }

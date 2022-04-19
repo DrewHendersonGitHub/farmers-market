@@ -3,10 +3,11 @@ import React from "react";
 function Schedule(props) {
   return (
     <React.Fragment>
-      <h3>Day: {props.day}</h3>
-      <h3>location: {props.location}</h3>
-      <h3>Booth: {props.booth}</h3>
-      <h3>Hours: {props.hours}</h3>
+      <hr/>
+      <h3>Day: </h3><p>{props.day}</p><br/>
+      <h3>location: </h3><p>{props.location}</p><br/>
+      <h3>Booth: </h3><p>{props.booth}</p><br/>
+      <h3>Hours: </h3><p>{props.hours}</p><br/>
     </React.Fragment>
   );
 }

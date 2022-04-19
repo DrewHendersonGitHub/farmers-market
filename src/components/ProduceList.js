@@ -1,5 +1,4 @@
 import React from "react";
-import Produce from "./Produce";
 
 const availableProduce = [  
   {  
@@ -277,14 +276,14 @@ function ProduceList(props){
         {availableProduce.map((vegetable) => {
           return (
             <div>
-              <h3>{vegetable.month}</h3>
+              <hr/>
+              <h3>Month: <em>{vegetable.month}</em></h3>
+              <h3>Produce: </h3>
               <ul>
                 {
                   vegetable.selection.map((v) => {
                     return (
-                      <li>
-                        {v}
-                      </li>
+                      <li>{v}</li>
                     );
                   })
                 }
@@ -298,14 +297,3 @@ function ProduceList(props){
 }
 
 export default ProduceList;
-
-// render() {
-//   const data =[{"name":"test1"},{"name":"test2"}];
-//   const listItems = data.map((d) => <li key={d.name}>{d.name}</li>);
-
-//   return (
-//     <div>
-//     {listItems }
-//     </div>
-//   );
-// }
