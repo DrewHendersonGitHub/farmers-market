@@ -18,4 +18,3 @@ Produce.propTypes = {
 };
 
 export default Produce;
-
