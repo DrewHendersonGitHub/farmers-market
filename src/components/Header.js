@@ -1,11 +1,11 @@
 import React from "react";
 
-function Header(){
+const Header = () => {
   return (
-    <React.Fragment>
-      <h3>Stuff</h3>
-    </React.Fragment>
-  );
+    <header>
+      <h1>Avery's Organics</h1>
+    </header>
+  )
 }
 
 export default Header;

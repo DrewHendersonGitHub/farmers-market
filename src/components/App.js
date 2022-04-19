@@ -1,14 +1,12 @@
 import React from "react";
-import ProduceList from "./ProduceList";
-import ScheduleList from "./ScheduleList";
 import Header from "./Header";
+import MarketContainer from "./MarketContainer";
 
 function App(){
   return ( 
     <React.Fragment>
       <Header />
-      <ProduceList />
-      <ScheduleList />
+      <MarketContainer />
     </React.Fragment>
   );
 }
